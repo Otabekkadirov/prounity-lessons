@@ -131,3 +131,8 @@ table {
 img {
     display: block;
 }
+
+img,
+button {
+    user-select: none;
+}
