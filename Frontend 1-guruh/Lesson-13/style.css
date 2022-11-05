@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 24px;
+
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: overline; */
+    /* text-decoration-line: line-through; */
+
+    /* text-decoration-style: solid; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: double; */
+    /* text-decoration-style: wavy; */
+
+    /* text-decoration-color: red; */
+    /* text-decoration-thickness: 4px; */
+
+    /* text-decoration: underline double purple 4px; */
+
+    /* text-align: left;
+    text-align: right;
+    text-align: center; */
+    text-align: justify;
+
+    text-indent: 75px;
+
+    /* line-height: 1.5; (1.5 * font-size) */
+
+    /* letter-spacing: 1.4px; */
+    /* word-spacing: 40px; */
+
+    /* font */
+    /* font-size: 36px; */
+
+    /* font-weight: 900; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+
+
+
+
+}

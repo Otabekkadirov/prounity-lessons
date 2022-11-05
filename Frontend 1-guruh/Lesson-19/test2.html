@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms - Demo Preview</title>
+        <meta content="noindex, nofollow" name="robots" />
+        <!-- Include CSS File Here -->
+        <link href="test2.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="first">
+            <form action="" method="post">
+                <h1>Contact Form</h1>
+                <h4>Please fill all entries.</h4>
+                <label class="one">
+                    <span>Name :</span>&nbsp;
+                    <input class="name" name="dname" type="text" />
+                </label>
+                <label class="two">
+                    <span>Email :</span>&nbsp;
+                    <input class="email" name="demail" type="email" />
+                </label>
+                <label class="three">
+                    <span>Message :</span>&nbsp;
+                    <textarea class="msg" name="msg"></textarea>
+                </label>
+                <label class="four">
+                    <span>Subject :</span>&nbsp;
+                    <select>
+                        <option value="Product Inquiry">Product Inquiry</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Complaint">Complaint</option>
+                    </select>
+                </label>
+                <input
+                    class="submit"
+                    name="dsubmit"
+                    type="submit"
+                    value="Send"
+                />
+            </form>
+        </div>
+    </body>
+</html>

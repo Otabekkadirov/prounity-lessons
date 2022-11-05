@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Forms</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="">
+            <div class="form-container">
+                <label for="username">Ism:</label>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="John"
+                />
+            </div>
+            <div class="form-container">
+                <label for="useremail">Email:</label>
+                <input
+                    type="email"
+                    id="useremail"
+                    name="useremail"
+                    placeholder="john@gmail.com"
+                />
+            </div>
+            <div class="form-container">
+                <label for="userpassword">Parol:</label>
+                <input
+                    type="password"
+                    id="userpassword"
+                    name="userpassword"
+                    placeholder="parol"
+                />
+            </div>
+            <div class="form-container">
+                <label for="userage">Yosh</label>
+                <input
+                    type="number"
+                    id="userage"
+                    name="userage"
+                    min="18"
+                    placeholder="yosh"
+                />
+            </div>
+
+            <div class="languages-container">
+                <h6>Tilni tanlang:</h6>
+                <ul class="languages">
+                    <li class="list-item">
+                        <input
+                            type="checkbox"
+                            name="language"
+                            value="english"
+                            id="english"
+                        />
+                        <label for="english">Ingliz tili</label>
+                    </li>
+                    <li class="list-item">
+                        <input
+                            type="checkbox"
+                            name="language"
+                            value="russian"
+                            id="russian"
+                        />
+                        <label for="russian">Rus tili</label>
+                    </li>
+                    <li class="list-item">
+                        <input
+                            type="checkbox"
+                            name="language"
+                            value="french"
+                            id="french"
+                        />
+                        <label for="french">Fransuz tili</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="gender-container">
+                <h6>Jins:</h6>
+                <input type="radio" name="jins" value="erkak" id="male" />
+                <label for="male">Erkak</label>
+                <input type="radio" name="jins" value="ayol" id="female" />
+                <label for="female">Ayol</label>
+            </div>
+
+            <div class="form-container">
+                <input type="reset" value="O'chirish" />
+                <input type="submit" value="Kirish" />
+            </div>
+        </form>
+    </body>
+</html>

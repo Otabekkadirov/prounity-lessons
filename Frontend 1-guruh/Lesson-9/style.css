@@ -1,0 +1,24 @@
+.parent {
+    width: 1000px;
+    height: auto;
+    border-bottom: 4px solid red;
+    border-left: 4px solid red;
+    border-top: 8px solid black;
+    border-right: 8px solid black;
+
+    padding-block: 100px;
+    padding-inline: 150px;
+}
+
+.child {
+    height: 100px;
+    border: 4px dashed greenyellow;
+    background-color: blueviolet;
+    margin-bottom: 40px;
+}
+
+.child-border {
+    width: 100px;
+    height: 100px;
+    border: 5px solid royalblue;
+}

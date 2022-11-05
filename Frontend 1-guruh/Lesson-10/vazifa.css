@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 5px solid black;
+}
+
+header {
+    border-bottom: 5px solid black;
+}
+
+.layout {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+main {
+    padding: 30px;
+}
+
+.purple-box {
+    height: 150px;
+    background-color: rgb(174, 86, 174);
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.column {
+    width: 30%;
+    height: 500px;
+}
+
+.red-column {
+    background-color: red;
+}
+
+.green-column {
+    background-color: green;
+}
+
+.orange-column {
+    background-color: orange;
+}

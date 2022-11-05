@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+/* Header uchun stillar */
+
+.header {
+    background-color: grey;
+}
+
+h1 {
+    padding: 25px 30px;
+    font-size: 56px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+.navigation-item {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-right: 1px solid white;
+}
+
+
+/* Main uchun stillar */
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-box {
+    max-width: 700px;
+}
+
+img {
+    width: 100%;
+}
+
+.text p {
+    margin: 15px;
+}

@@ -1,0 +1,31 @@
+html {
+    background-color: red;
+}
+
+div {
+    font-size: 68px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    background-color: rgb(142, 120, 120);
+}
+
+a {
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+}
+
+a::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: red;
+    transition: 3s;
+}
+
+a:hover::after {
+    color: red;
+    width: 100%;
+}
