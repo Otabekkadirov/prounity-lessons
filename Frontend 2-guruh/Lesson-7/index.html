@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table - jadval</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Age</th>
+                    <th>Region</th>
+                    <th>School</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th colspan="4">Jami o'quvchilar:</th>
+                    <td>4 ta</td>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                <tr>
+                    <td>Aziz</td>
+                    <td>Ashurov</td>
+                    <td>15</td>
+                    <td>Bukhara city</td>
+                    <td>17-maktab</td>
+                </tr>
+                <tr>
+                    <td>Javohir</td>
+                    <td rowspan="2">Sa'dullayev</td>
+                    <td rowspan="2">16</td>
+                    <td rowspan="2">Romitan city</td>
+                    <td rowspan="2">5-maktab</td>
+                </tr>
+                <tr>
+                    <td>Suxrob</td>
+                    <!-- <td>Sa'dullayev</td> -->
+                    <!-- <td>16</td> -->
+                    <!-- <td>Romitan city</td> -->
+                    <!-- <td>5-maktab</td> -->
+                </tr>
+                <tr>
+                    <td>Jahongir</td>
+                    <td>Abdullayev</td>
+                    <td>16</td>
+                    <td>Vobkent city</td>
+                    <td>28-maktab</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
