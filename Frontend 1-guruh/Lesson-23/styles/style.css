@@ -370,4 +370,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.about__video_play-button:hover {
+    scale: 0.99;
+}
+.about__video_play-button:active {
+    scale: 0.95;
+}
 /* About section styles end */
