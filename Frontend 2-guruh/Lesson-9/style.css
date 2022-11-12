@@ -1,0 +1,20 @@
+li {
+    color: white;
+}
+body {
+    background: royalblue;
+    text-align: center;
+}
+h1 {
+    color: red;
+    background: yellow;
+    font-size: 50px;
+}
+div {
+    color: yellow;
+    background: red;
+    font-size: 30px;
+}
+h2 {
+    color: #7ce62b;
+}
