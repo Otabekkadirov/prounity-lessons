@@ -1,0 +1,69 @@
+body {
+    background-color: royalblue;
+    color: white;
+}
+h3 {
+    font-size: 30px;
+    color: gold;
+    border: 3px solid whitesmoke;
+}
+li {
+    color: lime;
+    font-size: 24px;
+    font-weight: bold;
+}
+.films {
+    color: crimson;
+}
+.novels {
+    color: lavender;
+}
+.red {
+    color: rgb(213, 8, 8);
+}
+.black {
+    color: black;
+}
+.white {
+    color: white;
+}
+.blue {
+    color: blue;
+}
+
+.box {
+    width: 500px;
+    height: 100px;
+    /* border: 2px solid black; */
+    margin: 0px;
+}
+
+.white-bg {
+    background-color: white;
+}
+.blue-bg {
+    background-color: blue;
+}
+.red-bg {
+    background-color: red;
+}
+
+.flag {
+    width: 500px;
+    border: 1px solid grey;
+}
+
+.flag-line {
+    height: 100px;
+}
+
+.skyblue-bg {
+    background-color: #3399fe;
+}
+.green-bg {
+    background-color: #1fb53a;
+}
+.red-line {
+    height: 6px;
+    background-color: #cc1120;
+}
