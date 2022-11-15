@@ -1,0 +1,22 @@
+body {
+    background-color: #333;
+}
+
+.box-gold {
+    background-color: gold;
+}
+
+.box-red {
+    background-color: red;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+}
+
+.box-green {
+    background-color: lime;
+}
