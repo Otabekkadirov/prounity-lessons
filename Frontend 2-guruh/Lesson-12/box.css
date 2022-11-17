@@ -1,0 +1,42 @@
+body {
+    background-color: #333;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 50px auto;
+
+    border-top: 15px solid orangered;
+    border-bottom: 50px solid red;
+    border-left: 50px solid red;
+    border-right: 15px solid orangered;
+
+    /* border-radius: 100px 20px 500px; */
+
+    /* border-top-left-radius: 40px;
+    border-bottom-left-radius: 100px; */
+
+    /* border-radius: 50%; */
+    border-bottom-left-radius: 1000px;
+
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 60px;
+    background-color: yellow;
+}
+
+.blob {
+    /* width: 500px;
+    height: 500px; */
+    width: fit-content;
+    background-color: rgb(154, 121, 174);
+    margin: 100px auto;
+    padding: 50px;
+}
+.blob-child {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 40% 30% 25% 50%;
+}
