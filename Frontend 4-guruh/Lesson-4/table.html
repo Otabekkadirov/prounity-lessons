@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 2px solid magenta;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Model</th>
+                    <th>Price</th>
+                    <th>Billing</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Dodge</td>
+                    <td>Challenger</td>
+                    <td>$100,000</td>
+                    <td>$100,000</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Chevrolet</td>
+                    <td>Malibu</td>
+                    <td colspan="2">$35,000</td>
+                </tr>
+                <tr>
+                    <td>Captiva</td>
+                    <td colspan="2">$18,000</td>
+                </tr>
+                <tr>
+                    <td>Cobalt</td>
+                    <td colspan="2">$11,000</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">BMW</td>
+                    <td>X6</td>
+                    <td>$60,000</td>
+                    <td>$60,000</td>
+                </tr>
+                <tr>
+                    <!-- <td>BMW</td> -->
+                    <td>X7</td>
+                    <td>$200,000</td>
+                    <td>$200,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
