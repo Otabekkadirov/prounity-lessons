@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: crimson;
+}
+.parent {
+    background-color: #fff;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 100px auto;
+}
+.child {
+    background-color: crimson;
+    display: inline-block;
+    width: 45%;
+    padding: 45px;
+    border-radius: 10px;
+}
+.child:first-child {
+    margin-right: 60px;
+}
+.sub-child {
+    background-color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.sub-child:last-child {
+    margin-bottom: 0;
+}
