@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px dashed green;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            td {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML da jadval</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Age</th>
+                    <th>Place of birth</th>
+                    <th>City address</th>
+                    <th>Interests</th>
+                    <th>School</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>Nurmuhammad</th>
+                    <th>Barnoyev</th>
+                    <td>17</td>
+                    <td>Rometan</td>
+                    <td>Gala Osiyo</td>
+                    <td rowspan="3">Frontend</td>
+                    <td rowspan="6">25-maktab</td>
+                </tr>
+                <tr>
+                    <th>Jamshid</th>
+                    <th>Xudoyberdiyev</th>
+                    <td>23</td>
+                    <td colspan="2">Buxoro</td>
+                </tr>
+                <tr>
+                    <th>Elnur</th>
+                    <th>Xotamov</th>
+                    <td>22</td>
+                    <td>Rometan</td>
+                    <td>Gala Osiyo</td>
+                </tr>
+                <tr>
+                    <th>Shamshod</th>
+                    <th>Rahmonov</th>
+                    <td>18</td>
+                    <td colspan="2">Rometan</td>
+                    <td>FullStack</td>
+                </tr>
+                <tr>
+                    <th>Suxrob</th>
+                    <th>Shamsiyev</th>
+                    <td>17</td>
+                    <td>Rometan</td>
+                    <td>Gala Osiyo</td>
+                    <td rowspan="2">Backend</td>
+                </tr>
+                <tr>
+                    <th>Sardor</th>
+                    <th>Qurbonov</th>
+                    <td>17</td>
+                    <td>Rometan</td>
+                    <td>Gala Osiyo</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
