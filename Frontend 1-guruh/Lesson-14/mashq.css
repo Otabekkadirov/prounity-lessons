@@ -1,30 +1,30 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 .image {
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .spring {
-  background-image: url(images/spring.jpg);
+    background-image: url(images/spring.jpg);
 }
 .summer {
-  background-image: url(images/summer.jpg);
+    background-image: url(images/summer.jpg);
 }
 .autumn {
-  background-image: url(images/autumn.jpg);
+    background-image: url(images/autumn.jpg);
 }
 .winter {
-  background-image: url(images/winter.jpg);
+    background-image: url(images/winter.jpg);
 }
 h2 {
-  color: white;
-  font-size: 76px;
+    color: white;
+    font-size: 76px;
 }

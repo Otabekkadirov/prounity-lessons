@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    background-image: url(./images/autumn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: whitesmoke;
+    text-align: center;
+}
+
+.box {
+    width: 75%;
+    height: 100vh;
+    border: 3px solid lime;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    /* color: darkblue; */
+}
+
+.box {
+    /* background: transparent; */
+    /* background-color: rgba(200, 100, 150, 0.9); */
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-y repeat-x; */
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
