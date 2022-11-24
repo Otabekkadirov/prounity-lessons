@@ -54,3 +54,68 @@ string, number, boolean, object, undefined, null and symbol
 
 // console.log(true);
 // console.log(false);
+
+// console.log("Welcome to ProUnity", "My name is Otabek");
+
+// console.clear();
+
+// Object
+
+// console.log({
+//     company: "Logitech",
+//     model: "MX 280",
+//     color: "black",
+//     price: "20$",
+// });
+
+// null, undefined
+// symbol
+
+// var, let, const
+
+// let myName = "Otabek";
+// myName = "Oybek";
+// console.log(myName);
+
+// let mySurname = "Kadirov";
+// console.log(mySurname);
+
+// let myAge = 29;
+// myAge = 30;
+// myAge = 31;
+// console.log(myAge);
+
+// console.log(myName + mySurname + myAge);
+// console.log("B" + "A" + +"A" + "A");
+
+// console.log(myName + mySurname);
+
+// console.log(
+//     `Mening ismim ${myName}. Familyam ${mySurname} va yoshim ${myAge} da.`
+// );
+
+// Number
+
+// console.log(10 + (10 / 2) * 3);
+
+// let students = 9;
+// students = 10;
+// students = 8;
+// students = 2;
+// students = 9;
+
+// // students = students + 286;
+// students += 286;
+// students -= 23;
+// students += 100;
+// students /= 2;
+// students *= 2;
+
+// console.log("O'quvchilar soni " + students + " ta.");
+
+// console.log(100 / 2); //qoldiq 0
+// console.log(100 / 3); // qoldiq 1
+
+// console.log(100 % 2);
+// console.log(100 % 3);
+// console.log(100 % 4);
