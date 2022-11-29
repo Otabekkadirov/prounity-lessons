@@ -32,3 +32,8 @@
 // }$ bo'ladi`;
 
 // console.log(myMessage.length);
+
+let person = "Ilya";
+console.log(`hello ${1}`);
+console.log(`hello ${"person"}`);
+console.log(`hello ${person}`);
