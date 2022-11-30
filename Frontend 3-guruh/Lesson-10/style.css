@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background: royalblue;
+}
+h1 {
+    color: purple;
+    background: yellow;
+}
+h2 {
+    background: red;
+    color: yellow;
+}
+h3 {
+    color: greenyellow;
+    background: red;
+}
+ul {
+    color: white;
+}
