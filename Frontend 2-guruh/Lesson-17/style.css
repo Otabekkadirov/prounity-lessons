@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    font-family: "Lato", sans-serif;
+}
+
+.menu-container {
+    border: 3px solid #333;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 2rem;
+    font-size: 2rem;
+    line-height: 5rem;
+    overflow: hidden;
+    text-align: center;
+}
+.menu-title {
+    background-color: gold;
+    padding: 1rem;
+}
+
+.menu-list-item {
+    border-top: 3px solid #333;
+}
+
+.menu-list-item a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+.menu-list-item a:hover {
+    background-color: #333;
+    color: white;
+}
