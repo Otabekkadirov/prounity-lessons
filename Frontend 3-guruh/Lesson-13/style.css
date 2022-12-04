@@ -1,0 +1,22 @@
+body {
+    color: crimson;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+header {
+    border: inherit;
+}
+h1 {
+    font-weight: normal;
+    border: inherit;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: green;
+    font-weight: normal;
+}
