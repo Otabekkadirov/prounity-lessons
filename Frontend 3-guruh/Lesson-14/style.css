@@ -1,0 +1,37 @@
+div {
+    border: 2px solid red;
+    margin-bottom: 15px;
+}
+
+.box1 {
+    width: 500px;
+    height: 100px;
+}
+
+.box2 {
+    width: 100px;
+}
+.box3 {
+    width: 800px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.box-img {
+    width: 600px;
+}
+
+.parent-box {
+    width: 500px;
+    height: 150px;
+    background: gold;
+}
+.child-box1 {
+    height: 50px;
+    background: royalblue;
+}
+.child-box2 {
+    width: 600px;
+    height: 70px;
+    background: lime;
+}

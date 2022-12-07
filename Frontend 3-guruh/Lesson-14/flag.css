@@ -1,0 +1,22 @@
+.flag {
+    width: 800px;
+}
+.flag-row {
+    height: 200px;
+}
+.flag-blue {
+    background-color: skyblue;
+}
+.flag-red {
+    background-color: crimson;
+    height: 5px;
+}
+.flag-white {
+    background-color: white;
+}
+.flag-green {
+    background-color: greenyellow;
+}
+body {
+    background-color: blue;
+}
