@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    background-color: #ddd;
+    max-width: 500px;
+    padding: 30px;
+    list-style: none;
+}
+
+.list-item {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 40px;
+}
+
+.home {
+    background-image: url(home.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}

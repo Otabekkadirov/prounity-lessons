@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.header {
+    background-color: #fff;
+    padding: 35px 0;
+}
+.wrapper {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__list-item {
+    padding: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header__list-item:hover {
+    color: #89ba16;
+}
+
+.header__logo {
+    font-size: 32px;
+    color: #89ba16;
+    font-weight: normal;
+}
+.preview {
+    background-image: url(title-background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
