@@ -15,3 +15,15 @@
 //         console.log(`${i}`);
 //     }
 // }
+
+// let result = "";
+// for (let i = 0; i <= 10; i++) {
+//     result += "#";
+//     console.log(result);
+// }
+
+// for (let i = 1; i <= 3; i++) {
+//     for (let j = 1; j <= 3; j++) {
+//         console.log(i, j);
+//     }
+// }
