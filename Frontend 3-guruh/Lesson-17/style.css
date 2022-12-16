@@ -1,0 +1,41 @@
+.border {
+    border: 5px solid black;
+}
+
+.column {
+    width: 210px;
+    height: 450px;
+    display: inline-block;
+}
+
+.big-box {
+    width: 750px;
+    margin: auto;
+}
+
+.title {
+    border-bottom: 5px solid black;
+}
+
+.inner-box {
+    padding: 20px;
+}
+
+.purple {
+    background-color: purple;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.green {
+    background-color: green;
+    margin: 0 20px;
+}
+
+.orange {
+    background-color: orange;
+}
