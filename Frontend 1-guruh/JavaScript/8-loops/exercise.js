@@ -123,17 +123,31 @@
 // 4 3
 // 4 4
 
-for (let i = 5; i <= 11; i++) {
-    console.log(`${i}-a`);
-    console.log(`${i}-b`);
-}
+// for (let i = 5; i <= 11; i++) {
+//     console.log(`${i}-a`);
+//     console.log(`${i}-b`);
+// }
 
-for (let i = 1; i <= 5; i++) {
+// for (let i = 1; i <= 5; i++) {
+//     let result = "";
+
+//     for (let j = 1; j <= 5; j++) {
+//         if (i + j <= 5) {
+//             result += "  ";
+//         } else {
+//             result += " #";
+//         }
+//     }
+//     console.log(result);
+// }
+
+for (let qator = 1; qator <= 8; qator++) {
     let result = "";
+    for (let ustun = 1; ustun <= 8; ustun++) {
+        // result += ustun;
 
-    for (let j = 1; j <= 5; j++) {
-        if (i + j <= 5) {
-            result += "  ";
+        if (qator + ustun <= 8) {
+            result += " ";
         } else {
             result += " #";
         }
