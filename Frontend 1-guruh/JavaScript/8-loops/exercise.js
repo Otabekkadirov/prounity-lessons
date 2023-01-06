@@ -124,18 +124,24 @@
 // 4 4
 
 for (let i = 5; i <= 11; i++) {
-    console.log(`${i}-a`);
-    console.log(`${i}-b`);
+    if (i === 6 || i === 9) {
+        console.log(`${i}-a`);
+        console.log(`${i}-b`);
+        console.log(`${i}-v\n`);
+    } else {
+        console.log(`${i}-a`);
+        console.log(`${i}-b\n`);
+    }
 }
 
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 8; i++) {
     let result = "";
 
-    for (let j = 1; j <= 5; j++) {
-        if (i + j <= 5) {
-            result += "  ";
+    for (let j = 1; j <= 8; j++) {
+        if (i + j <= 8) {
+            result += " ";
         } else {
-            result += " #";
+            result += "#";
         }
     }
     console.log(result);
