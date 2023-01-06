@@ -442,9 +442,13 @@ body {
 
 .news__card_content {
     padding: 12px 19px 23px 20px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .news__card_title {
+    flex-grow: 1;
     font-weight: 500;
     line-height: 20px;
     color: #000000;
