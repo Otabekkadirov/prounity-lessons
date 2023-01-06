@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Explore Landing Page</title>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/fonts.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper header__wrapper">
+                <h2 class="header__logo">MY COMPANY</h2>
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-link">Home</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-link">About</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-link">
+                                Businesses
+                            </a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-link">
+                                Sustainability
+                            </a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-link">News</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <input
+                        class="header__searchbar"
+                        type="search"
+                        placeholder="Search"
+                    />
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="wrapper hero__wrapper">
+                <div class="hero__content">
+                    <h1 class="hero__title">Passion Purpose Progress</h1>
+                    <p class="hero__text">
+                        Meaningful progress is at the heart of everything we do
+                        and everything we create. This value drives our approach
+                        to sustainability.
+                    </p>
+                    <button class="btn btn-start">Get Started</button>
+                </div>
+                <div class="hero__img">
+                    <img
+                        class="hero__img-thumb"
+                        src="./img/hero-bg.jpg"
+                        alt="Team photo"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="wrapper service__wrapper">
+                <div class="service__content">
+                    <h2 class="service__title">
+                        What Kind of Service We Provide
+                    </h2>
+                    <p class="service__desc">
+                        Meaningful progress is at the heart of everything we do
+                        and everything we create. This value drives our approach
+                        to sustainability.
+                    </p>
+                    <button class="btn btn-start">Get Started</button>
+                </div>
+
+                <div class="service__cards">
+                    <div class="service__card">
+                        <!-- <img
+                            class="service__card-icon"
+                            src="./img/svg/flower-icon.svg"
+                            alt="flower-icon"
+                        /> -->
+
+                        <!-- SVG start -->
+                        <svg
+                            class="service__card-icon"
+                            width="40"
+                            height="40"
+                            viewBox="0 0 40 40"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21.0167 3.81165C20.7347 3.56659 20.3737 3.43164 20.0001 3.43164C19.6265 3.43164 19.2654 3.56659 18.9834 3.81165C17.7166 4.90863 16.6933 6.2586 15.9794 7.77474C15.2656 9.29087 14.8769 10.9396 14.8384 12.615C14.8374 12.7705 14.8801 12.9231 14.9617 13.0555C15.0434 13.1878 15.1606 13.2945 15.3001 13.3633C16.3143 13.8907 17.2654 14.5314 18.1351 15.2733C18.5651 15.6383 18.9551 16.02 19.3084 16.4083C19.6751 16.8116 20.3251 16.8116 20.6917 16.4083C21.0451 16.02 21.4351 15.6383 21.8651 15.275C22.734 14.5329 23.6846 13.8921 24.6984 13.365C24.8381 13.2964 24.9557 13.1898 25.0377 13.0574C25.1196 12.9251 25.1626 12.7723 25.1617 12.6166C25.1236 10.941 24.7351 9.29189 24.0212 7.77543C23.3073 6.25897 22.2839 4.90875 21.0167 3.81165Z"
+                            />
+                            <path
+                                d="M19.9998 30.0718C21.3378 27.7163 23.3485 25.8139 25.7745 24.6083C28.2004 23.4028 30.931 22.949 33.6165 23.3051C34.0137 23.3576 34.3757 23.5604 34.628 23.8716C34.8804 24.1828 35.0039 24.5789 34.9731 24.9784C34.7284 28.1583 33.2924 31.1286 30.9524 33.2956C28.6124 35.4626 25.5407 36.6665 22.3515 36.6668H17.6481C14.4589 36.6665 11.3872 35.4626 9.04719 33.2956C6.70718 31.1286 5.27126 28.1583 5.02648 24.9784C4.99615 24.579 5.1198 24.1831 5.37206 23.872C5.62433 23.5608 5.98609 23.358 6.38314 23.3051C9.06862 22.9488 11.7993 23.4024 14.2253 24.608C16.6513 25.8136 18.662 27.7161 19.9998 30.0718ZM32.7431 21.5501C29.6631 21.3801 26.6531 22.1834 24.1998 23.4918C22.7281 24.2751 21.3831 25.2834 20.3298 26.4434C20.288 26.4893 20.237 26.526 20.1802 26.551C20.1233 26.5761 20.0619 26.5891 19.9998 26.5891C19.9377 26.5891 19.8763 26.5761 19.8195 26.551C19.7626 26.526 19.7117 26.4893 19.6698 26.4434C18.6181 25.2818 17.2698 24.2751 15.7998 23.4918C13.3531 22.1868 10.3498 21.3851 7.28148 21.5501C6.06481 19.6334 5.23148 17.4334 5.03148 15.2168C5.01273 15.0072 5.03559 14.796 5.09874 14.5953C5.16189 14.3946 5.26408 14.2083 5.39945 14.0473C5.53482 13.8862 5.70069 13.7534 5.88752 13.6567C6.07436 13.5599 6.27848 13.501 6.48814 13.4834C10.5781 13.1418 13.9931 13.9501 17.0581 16.5451C18.4398 17.7168 19.3681 19.1234 19.9998 20.3234C20.6331 19.1234 21.5598 17.7168 22.9415 16.5451C26.0081 13.9484 29.4465 13.1418 33.5365 13.4834C33.7461 13.501 33.9503 13.5599 34.1371 13.6567C34.3239 13.7534 34.4898 13.8862 34.6252 14.0473C34.7605 14.2083 34.8627 14.3946 34.9259 14.5953C34.989 14.796 35.0119 15.0072 34.9931 15.2168C34.7931 17.4334 33.9598 19.6351 32.7431 21.5501Z"
+                            />
+                        </svg>
+                        <!-- SVG end -->
+
+                        <h3 class="service__card-title">Manufacturing</h3>
+
+                        <p class="service__card-desc">
+                            Indonesia's consumer class is projected to triple by
+                            2030.
+                        </p>
+                    </div>
+                    <div class="service__card">
+                        <!-- SVG start -->
+                        <svg
+                            class="service__card-icon"
+                            width="40"
+                            height="40"
+                            viewBox="0 0 40 40"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21.0167 3.81165C20.7347 3.56659 20.3737 3.43164 20.0001 3.43164C19.6265 3.43164 19.2654 3.56659 18.9834 3.81165C17.7166 4.90863 16.6933 6.2586 15.9794 7.77474C15.2656 9.29087 14.8769 10.9396 14.8384 12.615C14.8374 12.7705 14.8801 12.9231 14.9617 13.0555C15.0434 13.1878 15.1606 13.2945 15.3001 13.3633C16.3143 13.8907 17.2654 14.5314 18.1351 15.2733C18.5651 15.6383 18.9551 16.02 19.3084 16.4083C19.6751 16.8116 20.3251 16.8116 20.6917 16.4083C21.0451 16.02 21.4351 15.6383 21.8651 15.275C22.734 14.5329 23.6846 13.8921 24.6984 13.365C24.8381 13.2964 24.9557 13.1898 25.0377 13.0574C25.1196 12.9251 25.1626 12.7723 25.1617 12.6166C25.1236 10.941 24.7351 9.29189 24.0212 7.77543C23.3073 6.25897 22.2839 4.90875 21.0167 3.81165Z"
+                            />
+                            <path
+                                d="M19.9998 30.0718C21.3378 27.7163 23.3485 25.8139 25.7745 24.6083C28.2004 23.4028 30.931 22.949 33.6165 23.3051C34.0137 23.3576 34.3757 23.5604 34.628 23.8716C34.8804 24.1828 35.0039 24.5789 34.9731 24.9784C34.7284 28.1583 33.2924 31.1286 30.9524 33.2956C28.6124 35.4626 25.5407 36.6665 22.3515 36.6668H17.6481C14.4589 36.6665 11.3872 35.4626 9.04719 33.2956C6.70718 31.1286 5.27126 28.1583 5.02648 24.9784C4.99615 24.579 5.1198 24.1831 5.37206 23.872C5.62433 23.5608 5.98609 23.358 6.38314 23.3051C9.06862 22.9488 11.7993 23.4024 14.2253 24.608C16.6513 25.8136 18.662 27.7161 19.9998 30.0718ZM32.7431 21.5501C29.6631 21.3801 26.6531 22.1834 24.1998 23.4918C22.7281 24.2751 21.3831 25.2834 20.3298 26.4434C20.288 26.4893 20.237 26.526 20.1802 26.551C20.1233 26.5761 20.0619 26.5891 19.9998 26.5891C19.9377 26.5891 19.8763 26.5761 19.8195 26.551C19.7626 26.526 19.7117 26.4893 19.6698 26.4434C18.6181 25.2818 17.2698 24.2751 15.7998 23.4918C13.3531 22.1868 10.3498 21.3851 7.28148 21.5501C6.06481 19.6334 5.23148 17.4334 5.03148 15.2168C5.01273 15.0072 5.03559 14.796 5.09874 14.5953C5.16189 14.3946 5.26408 14.2083 5.39945 14.0473C5.53482 13.8862 5.70069 13.7534 5.88752 13.6567C6.07436 13.5599 6.27848 13.501 6.48814 13.4834C10.5781 13.1418 13.9931 13.9501 17.0581 16.5451C18.4398 17.7168 19.3681 19.1234 19.9998 20.3234C20.6331 19.1234 21.5598 17.7168 22.9415 16.5451C26.0081 13.9484 29.4465 13.1418 33.5365 13.4834C33.7461 13.501 33.9503 13.5599 34.1371 13.6567C34.3239 13.7534 34.4898 13.8862 34.6252 14.0473C34.7605 14.2083 34.8627 14.3946 34.9259 14.5953C34.989 14.796 35.0119 15.0072 34.9931 15.2168C34.7931 17.4334 33.9598 19.6351 32.7431 21.5501Z"
+                            />
+                        </svg>
+                        <!-- SVG end -->
+
+                        <h3 class="service__card-title">Food</h3>
+
+                        <p class="service__card-desc">
+                            The demand for food will increase significantly as
+                            more consumers in emerging economies enter the
+                            middle class.
+                        </p>
+                    </div>
+                    <div class="service__card">
+                        <!-- SVG start -->
+                        <svg
+                            class="service__card-icon"
+                            width="40"
+                            height="40"
+                            viewBox="0 0 40 40"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21.0167 3.81165C20.7347 3.56659 20.3737 3.43164 20.0001 3.43164C19.6265 3.43164 19.2654 3.56659 18.9834 3.81165C17.7166 4.90863 16.6933 6.2586 15.9794 7.77474C15.2656 9.29087 14.8769 10.9396 14.8384 12.615C14.8374 12.7705 14.8801 12.9231 14.9617 13.0555C15.0434 13.1878 15.1606 13.2945 15.3001 13.3633C16.3143 13.8907 17.2654 14.5314 18.1351 15.2733C18.5651 15.6383 18.9551 16.02 19.3084 16.4083C19.6751 16.8116 20.3251 16.8116 20.6917 16.4083C21.0451 16.02 21.4351 15.6383 21.8651 15.275C22.734 14.5329 23.6846 13.8921 24.6984 13.365C24.8381 13.2964 24.9557 13.1898 25.0377 13.0574C25.1196 12.9251 25.1626 12.7723 25.1617 12.6166C25.1236 10.941 24.7351 9.29189 24.0212 7.77543C23.3073 6.25897 22.2839 4.90875 21.0167 3.81165Z"
+                            />
+                            <path
+                                d="M19.9998 30.0718C21.3378 27.7163 23.3485 25.8139 25.7745 24.6083C28.2004 23.4028 30.931 22.949 33.6165 23.3051C34.0137 23.3576 34.3757 23.5604 34.628 23.8716C34.8804 24.1828 35.0039 24.5789 34.9731 24.9784C34.7284 28.1583 33.2924 31.1286 30.9524 33.2956C28.6124 35.4626 25.5407 36.6665 22.3515 36.6668H17.6481C14.4589 36.6665 11.3872 35.4626 9.04719 33.2956C6.70718 31.1286 5.27126 28.1583 5.02648 24.9784C4.99615 24.579 5.1198 24.1831 5.37206 23.872C5.62433 23.5608 5.98609 23.358 6.38314 23.3051C9.06862 22.9488 11.7993 23.4024 14.2253 24.608C16.6513 25.8136 18.662 27.7161 19.9998 30.0718ZM32.7431 21.5501C29.6631 21.3801 26.6531 22.1834 24.1998 23.4918C22.7281 24.2751 21.3831 25.2834 20.3298 26.4434C20.288 26.4893 20.237 26.526 20.1802 26.551C20.1233 26.5761 20.0619 26.5891 19.9998 26.5891C19.9377 26.5891 19.8763 26.5761 19.8195 26.551C19.7626 26.526 19.7117 26.4893 19.6698 26.4434C18.6181 25.2818 17.2698 24.2751 15.7998 23.4918C13.3531 22.1868 10.3498 21.3851 7.28148 21.5501C6.06481 19.6334 5.23148 17.4334 5.03148 15.2168C5.01273 15.0072 5.03559 14.796 5.09874 14.5953C5.16189 14.3946 5.26408 14.2083 5.39945 14.0473C5.53482 13.8862 5.70069 13.7534 5.88752 13.6567C6.07436 13.5599 6.27848 13.501 6.48814 13.4834C10.5781 13.1418 13.9931 13.9501 17.0581 16.5451C18.4398 17.7168 19.3681 19.1234 19.9998 20.3234C20.6331 19.1234 21.5598 17.7168 22.9415 16.5451C26.0081 13.9484 29.4465 13.1418 33.5365 13.4834C33.7461 13.501 33.9503 13.5599 34.1371 13.6567C34.3239 13.7534 34.4898 13.8862 34.6252 14.0473C34.7605 14.2083 34.8627 14.3946 34.9259 14.5953C34.989 14.796 35.0119 15.0072 34.9931 15.2168C34.7931 17.4334 33.9598 19.6351 32.7431 21.5501Z"
+                            />
+                        </svg>
+                        <!-- SVG end -->
+
+                        <h3 class="service__card-title">Property</h3>
+
+                        <p class="service__card-desc">
+                            Indonesia's property market is resilient as demand
+                            for quality properties of all types is increasing,
+                            incomes are growing and available land in Jakarta is
+                            limited.
+                        </p>
+                    </div>
+                    <div class="service__card">
+                        <!-- SVG start -->
+                        <svg
+                            class="service__card-icon"
+                            width="40"
+                            height="40"
+                            viewBox="0 0 40 40"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21.0167 3.81165C20.7347 3.56659 20.3737 3.43164 20.0001 3.43164C19.6265 3.43164 19.2654 3.56659 18.9834 3.81165C17.7166 4.90863 16.6933 6.2586 15.9794 7.77474C15.2656 9.29087 14.8769 10.9396 14.8384 12.615C14.8374 12.7705 14.8801 12.9231 14.9617 13.0555C15.0434 13.1878 15.1606 13.2945 15.3001 13.3633C16.3143 13.8907 17.2654 14.5314 18.1351 15.2733C18.5651 15.6383 18.9551 16.02 19.3084 16.4083C19.6751 16.8116 20.3251 16.8116 20.6917 16.4083C21.0451 16.02 21.4351 15.6383 21.8651 15.275C22.734 14.5329 23.6846 13.8921 24.6984 13.365C24.8381 13.2964 24.9557 13.1898 25.0377 13.0574C25.1196 12.9251 25.1626 12.7723 25.1617 12.6166C25.1236 10.941 24.7351 9.29189 24.0212 7.77543C23.3073 6.25897 22.2839 4.90875 21.0167 3.81165Z"
+                            />
+                            <path
+                                d="M19.9998 30.0718C21.3378 27.7163 23.3485 25.8139 25.7745 24.6083C28.2004 23.4028 30.931 22.949 33.6165 23.3051C34.0137 23.3576 34.3757 23.5604 34.628 23.8716C34.8804 24.1828 35.0039 24.5789 34.9731 24.9784C34.7284 28.1583 33.2924 31.1286 30.9524 33.2956C28.6124 35.4626 25.5407 36.6665 22.3515 36.6668H17.6481C14.4589 36.6665 11.3872 35.4626 9.04719 33.2956C6.70718 31.1286 5.27126 28.1583 5.02648 24.9784C4.99615 24.579 5.1198 24.1831 5.37206 23.872C5.62433 23.5608 5.98609 23.358 6.38314 23.3051C9.06862 22.9488 11.7993 23.4024 14.2253 24.608C16.6513 25.8136 18.662 27.7161 19.9998 30.0718ZM32.7431 21.5501C29.6631 21.3801 26.6531 22.1834 24.1998 23.4918C22.7281 24.2751 21.3831 25.2834 20.3298 26.4434C20.288 26.4893 20.237 26.526 20.1802 26.551C20.1233 26.5761 20.0619 26.5891 19.9998 26.5891C19.9377 26.5891 19.8763 26.5761 19.8195 26.551C19.7626 26.526 19.7117 26.4893 19.6698 26.4434C18.6181 25.2818 17.2698 24.2751 15.7998 23.4918C13.3531 22.1868 10.3498 21.3851 7.28148 21.5501C6.06481 19.6334 5.23148 17.4334 5.03148 15.2168C5.01273 15.0072 5.03559 14.796 5.09874 14.5953C5.16189 14.3946 5.26408 14.2083 5.39945 14.0473C5.53482 13.8862 5.70069 13.7534 5.88752 13.6567C6.07436 13.5599 6.27848 13.501 6.48814 13.4834C10.5781 13.1418 13.9931 13.9501 17.0581 16.5451C18.4398 17.7168 19.3681 19.1234 19.9998 20.3234C20.6331 19.1234 21.5598 17.7168 22.9415 16.5451C26.0081 13.9484 29.4465 13.1418 33.5365 13.4834C33.7461 13.501 33.9503 13.5599 34.1371 13.6567C34.3239 13.7534 34.4898 13.8862 34.6252 14.0473C34.7605 14.2083 34.8627 14.3946 34.9259 14.5953C34.989 14.796 35.0119 15.0072 34.9931 15.2168C34.7931 17.4334 33.9598 19.6351 32.7431 21.5501Z"
+                            />
+                        </svg>
+                        <!-- SVG end -->
+
+                        <h3 class="service__card-title">Insurance</h3>
+
+                        <p class="service__card-desc">
+                            As the economy continues to develop, Indonesians
+                            will increasingly use insurance for their wealth
+                            protection, health coverage and investment needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="wrapper about__wrapper">
+                <div class="about__content">
+                    <div class="about__title_top-border"></div>
+                    <h2 class="about__title">
+                        Who <span style="color: #1a52e4">We Are</span>
+                    </h2>
+
+                    <p class="about__desc">
+                        Established in 1953 by Go Soei Kie (Dasuki Angkosubroto)
+                        as a commodities trading business, Gunung Sewu has grown
+                        to become one of Indonesia’s premier diversified
+                        business groups, with a workforce of approximately
+                        30,000 professionals encompassing operations in the
+                        food, insurance, property, manufacturing and other
+                        emerging businesses. We believe that Indonesia is a
+                        market that can be developed involving ecosystems that
+                        are sustainable, whilst aiming to lead by example.
+                    </p>
+
+                    <button class="btn btn-start">learn more</button>
+                </div>
+
+                <div class="about__video">
+                    <div class="about__video-img">
+                        <img
+                            class="about__video-thumb"
+                            src="./img/about-video-img.jpg"
+                            alt="about us"
+                        />
+                        <img
+                            class="about__video_play-button"
+                            src="./img/svg/play-button.svg"
+                            alt="play button"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="wrapper news__wrapper">
+                <div class="news__header">
+                    <h2 class="news__title">GS News</h2>
+                    <div class="news__arrows">
+                        <button class="btn news__btn">
+                            <img
+                                class="news__arrow"
+                                src="./img/svg/news-arrow.svg"
+                                alt=""
+                            />
+                        </button>
+                        <button class="btn news__btn">
+                            <img
+                                class="news__arrow"
+                                src="./img/svg/news-arrow.svg"
+                                alt=""
+                            />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="news__cards">
+                    <div class="news__card">
+                        <div class="news__card-img">
+                            <img
+                                class="news__card-thumb"
+                                src="./img/news-1.jpg"
+                                alt="news"
+                            />
+                        </div>
+                        <p class="news__card-title">
+                            Great Giant Pineapple Received TOP CSR 2022 Awards
+                            From TOP Business Magazine
+                        </p>
+                        <div class="news__card-footer">
+                            <h4 class="news__card-date">13 April 2022</h4>
+                            <img
+                                class="news__card-btn-ico"
+                                src="./img/svg/news-card-arrow.svg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="news__card">
+                        <div class="news__card-img">
+                            <img
+                                class="news__card-thumb"
+                                src="./img/news-2.jpg"
+                                alt="news"
+                            />
+                        </div>
+                        <p class="news__card-title">
+                            Great Giant Pineapple Wins 2 Awards At The 2022
+                            Public Relations Indonesia Awards
+                        </p>
+                        <div class="news__card-footer">
+                            <h4 class="news__card-date">25 March 2022</h4>
+                            <img
+                                class="news__card-btn-ico"
+                                src="./img/svg/news-card-arrow.svg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="news__card">
+                        <div class="news__card-img">
+                            <img
+                                class="news__card-thumb"
+                                src="./img/news-3.jpg"
+                                alt="news"
+                            />
+                        </div>
+                        <p class="news__card-title">
+                            Revo Town Skybridge Has Reached 70% Of Development
+                        </p>
+                        <div class="news__card-footer">
+                            <h4 class="news__card-date">04 April 2022</h4>
+                            <img
+                                class="news__card-btn-ico"
+                                src="./img/svg/news-card-arrow.svg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="news__card">
+                        <div class="news__card-img">
+                            <img
+                                class="news__card-thumb"
+                                src="./img/news-4.jpg"
+                                alt="news"
+                            />
+                        </div>
+                        <p class="news__card-title">
+                            Sequis Tower Wins CTBUH Award Of Excellence On Best
+                            Tall Office Building
+                        </p>
+                        <div class="news__card-footer">
+                            <h4 class="news__card-date">04 April 2022</h4>
+                            <img
+                                class="news__card-btn-ico"
+                                src="./img/svg/news-card-arrow.svg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="news__card">
+                        <div class="news__card-img">
+                            <img
+                                class="news__card-thumb"
+                                src="./img/news-4.jpg"
+                                alt="news"
+                            />
+                        </div>
+                        <p class="news__card-title">
+                            Sequis Tower Wins CTBUH Award Of Excellence On Best
+                            Tall Office Building
+                        </p>
+                        <div class="news__card-footer">
+                            <h4 class="news__card-date">04 April 2022</h4>
+                            <img
+                                class="news__card-btn-ico"
+                                src="./img/svg/news-card-arrow.svg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper join-us__wrapper">
+            <h2 class="join-us__title">Join Us Now</h2>
+            <button class="btn join-us__btn">Find Us</button>
+        </div>
+
+        <footer class="footer"></footer>
+    </body>
+</html>

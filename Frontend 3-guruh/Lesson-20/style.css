@@ -1,0 +1,37 @@
+body {
+    background-color: #333;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 40px;
+
+    background-image: url("https://cosmosmagazine.com/wp-content/uploads/2020/03/200323_quasar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+}
+.main {
+    border: 4px solid lightgray;
+    height: 500px;
+
+    background-color: gold;
+
+    background-image: url("https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9"),
+        url("https://www.woodlandtrust.org.uk/media/50820/house-mouse-wtml-1062551-amy-lewis.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, 300px;
+
+    /* background-position: ; */
+    background-position-x: center;
+    background-position-y: center;
+
+    background-attachment: scroll, scroll;
+
+    color: black;
+}

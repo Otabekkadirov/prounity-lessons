@@ -140,17 +140,25 @@
 //     }
 //     console.log(result);
 // }
+// let etaj = 4;
 
-for (let qator = 1; qator <= 8; qator++) {
-    let result = "";
-    for (let ustun = 1; ustun <= 8; ustun++) {
-        // result += ustun;
+// for (let qator = 1; qator <= etaj; qator++) {
+//     let treeRow = "";
+//     for (let ustun = 1; ustun <= etaj; ustun++) {
+//         if (qator + ustun <= etaj) {
+//             treeRow += " ";
+//         } else {
+//             treeRow += " #";
+//         }
+//     }
+//     console.log(treeRow);
+// }
+// console.log(" ");
 
-        if (qator + ustun <= 8) {
-            result += " ";
-        } else {
-            result += " #";
-        }
-    }
-    console.log(result);
-}
+// let block = "";
+// for (let j = 1; j <= 5; j++) {
+//     block += "*";
+//     // block = "";
+
+//     console.log(block);
+// }

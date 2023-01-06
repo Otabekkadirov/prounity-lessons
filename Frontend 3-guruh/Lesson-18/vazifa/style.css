@@ -1,0 +1,68 @@
+body {
+    background-color: hsl(227, 83%, 12%);
+}
+
+.container {
+    border: 2px dashed purple;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    border-radius: 0 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card-header {
+    padding: 40px 40px 10px 40px;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: hotpink;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px 15px;
+    font-size: 12px;
+}
+
+.card-blue {
+    background-color: hsl(234, 90%, 96%);
+}
+
+.card-blue .card-header {
+    background-color: hsl(234, 83%, 86%);
+}
+
+.card-grey {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card-grey .card-header {
+    background-color: hsl(225, 25%, 94%);
+}
+
+.card-yellow {
+    background-color: hsl(70, 90%, 96%);
+}
+
+.card-yellow .card-header {
+    background-color: hsl(69, 85%, 84%);
+}
+
+.card-green {
+    background-color: hsl(111, 74%, 93%);
+}
+
+.card-green .card-header {
+    background-color: hsl(112, 60%, 78%);
+}
+.card-red {
+    background-color: hsl(0, 93%, 94%);
+}
+
+.card-red .card-header {
+    background-color: hsl(0, 60%, 78%);
+}
